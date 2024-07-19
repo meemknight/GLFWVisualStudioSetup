@@ -57,10 +57,10 @@ int main(void)
 #if REMOVE_IMGUI == 0
 	ImGui::CreateContext();
 	//ImGui::StyleColorsDark();				//you can use whatever imgui theme you like!
-	//imguiThemes::yellow();
+	imguiThemes::yellow();
 	//imguiThemes::gray();
 	//imguiThemes::green();
-	imguiThemes::red();
+	//imguiThemes::red();
 	//imguiThemes::embraceTheDarkness();
 
 	ImGuiIO &io = ImGui::GetIO(); (void)io;
