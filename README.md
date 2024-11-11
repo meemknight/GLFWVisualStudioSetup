@@ -17,7 +17,8 @@ I even added GLM, Imgui with extensions, and stb_image for you!
 ## How to use?
 
 If you just want to learn OpenGL from the https://learnopengl.com/ you can just delete the content from main.cpp and start from scratch!
-*BUT* re-add ```#include <openglErrorReporting.h>``` and the ```enableReportGlErrors();``` line!!!!!!!!
+*BUT* re-add ```#include <openglErrorReporting.h>``` and the ```enableReportGlErrors();``` line after you enable opengl!!!!!!!!
+(it might not work on apple)
 
 They are very important because they will enable OpenGL error reporting for you!!!!!!!!! And trust me you want that!
 
